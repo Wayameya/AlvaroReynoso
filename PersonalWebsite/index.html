@@ -1,124 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="./Images/logo.png" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My page</title>
 
-    <style>
-        .LBText{
-            color: #b3d0ff;
-        }
-        .footnote {
-            background-color: #ffffff; /* Solid white background */
-            padding: 50px;
-            color: #100942;
-            text-align: center;
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 11px;
-            position:relative;
-            bottom: 0;
-            height: 400%;
-            width: 100%;
-            box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
-        }
-
-        input{
-            background-color: rgb(176, 200, 214);
-            text-align: center;
-            border-color: rgb(176, 200, 214);
-            border-style: dotted;
-            color: rgb(93, 120, 165);
-            font-family:'Courier New', Courier, monospace;
-        }
-
-        hr {
-            border: none;
-            height: 3px; 
-            background-color: #ffffff;
-            width: 95%; 
-            margin: 20px auto; 
-        }
-
-        .Link{
-            background-color: rgb(114, 209, 206);
-            text-align: center;
-            border: solid 50px;
-            border-color: rgb(114, 209, 206);
-            color: rgb(255, 252, 240);
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            text-shadow: solid 5px;
-        }
-        .LBBlock{
-            background-color: rgb(113, 161, 188);
-            text-align: center;
-            border-color: rgb(113, 161, 188);
-            color: rgb(255, 255, 255);
-        }
-        .SBlock{
-            background-color: rgb(176, 200, 214);
-            text-align: center;
-        }
-        .bluetext{
-            color:darkblue;
-            text-decoration: none;
-        }
-        .whitetext{
-            color:rgb(255, 255, 255);
-            text-decoration: none;
-        }
-
-        .font{
-            font-family: 'Courier New', Courier, monospace;
-        }
-
-        .Bblock{
-            background-color: darkblue;
-            text-align: center;
-            border: solid 10px;
-            border-color:darkblue;
-            color: white;
-            
-            ;
-        }
-        .Wblock{
-            background-color: white;
-            text-align: left;
-            border: solid 10px;
-            border-color: white;
-            color: rgb(9, 9, 50);
-            
-        }
-        .WblockT{
-            background-color: white;
-            text-align: center;
-            border: solid 10px;
-            border-color: white;
-            color: rgb(9, 16, 40);
-            
-        }
-        .WBblock{
-            background-color: white;
-            text-align:justify;
-            border:solid 20px;
-            border-color: white;
-            color: rgb(9, 9, 57);
-            
-        }
-    </style>
-
-    <style>
-        body {
-            background-image: url("./Images/waves.PNG");
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
-            background-attachment: fixed;
-        }
-    </style>
 </head>
 
+<body class="bodyA">
+<table border="0">
+    <thead>
+        <th style="width: 13%;"></th>
+        <th>
+
+<section id="home">
 <table border="0">
     <tr>
         <td style="vertical-align: bottom;" rowspan="3">
@@ -127,23 +24,53 @@
         <td height="150" style="vertical-align: bottom; padding: 0;">
             <div style="display: flex; flex-direction: column; justify-content: flex-end; height: 100%;">
                 <strong class="LBText" style="font-size: 4em; margin: 0;">Alvaro Reynoso Obregon</strong>
-                <strong class="whitetext" style="margin: 0;">Animation Student</strong>
-                <em class="bluetext" style="margin: 0;">La Calle de las Sirenas, 4108</em>
+                <strong class="whitetext" style="text-align: left;" style="margin: 0;">Animation Student</strong>
+                <em class="bluetext" style="text-align: left;" style="margin: 0;">La Calle de las Sirenas, 4108</em>
             </div>
         </td>
     </tr>
 </table>
-    
-<body>
 
-
+</section>
 
 <nav class="WblockT"><font face="Courier New"><b>
     <a class="bluetext" href="index.html">|Home</a> |
     <a class="bluetext" href="destination.html">My favourite Spots|</a>
 </b></font></nav>
 
+<div class="navbar">
+    <img src="Images/Coconat.png" alt="coconat" height="100px"><br/>
+    <a class="NVBlockT">Sections</a><br/><hr/>
 
+    <div class="dropdown">
+        <a class="NVBlockt1" href="#home"><img src="Images/HomeIcon.png" height="20px"> HOME </a>
+        <div class="dropdown-content">
+            <a class="NVBlockt2" href="#background">Background</a>
+            <a class="NVBlockt2" href="#education">Education</a>
+            <a class="NVBlockt2" href="#skills/hobbies">Skills/Hobbies</a>
+            <a class="NVBlockt2" href="#foods">Foods</a>
+            <a class="NVBlockt2" href="#mediaienjoy">Media I enjoy</a>
+            <a class="NVBlockt2" href="#musicians">Musicians</a>
+            <a class="NVBlockt2" href="#forms">Forms</a>
+        </div>
+    </div><br/><hr/><br/>
+
+    <div class="dropdown">
+        <a class="NVBlockt1" href="#homeD"><img src="Images/LocationIcon.png" height="20px"> MY FAVOURITE SPOTS </a>
+        <div class="dropdown-content">
+            <a class="NVBlockt2" href="destination.html#museodelprado">Museo del Prado</a>
+            <a class="NVBlockt2" href="destination.html#museodeags">Museo de Aguascalientes</a>
+            <a class="NVBlockt2" href="destination.html#riodejaneiro">Rio de Janeiro</a>
+            <a class="NVBlockt2" href="destination.html#sicily">Sicily</a>
+            <a class="NVBlockt2" href="destination.html#valencia">Valencia</a>
+        </div>
+    </div><br/><hr/><br/>
+
+</div>
+
+
+
+    <section id="background">
 <br><center><img src="./Images/Yo.png" heigth="300" width="250" alt="A portrait of me"  /></center>
     <h2 class="Bblock">Background</h2>
     <h3 class="WBblock"><font size="2" face="Courier New">I was born from an early age in the year of 2003, October. 
@@ -152,10 +79,13 @@
         lead me to an obsession with drawing; quickly turning into my desire for a 
         career path. Currently i study animation in the hopes of getting to put out 
         my own stories.</font>
+    
 
-
-    <br><br><center><a href="https://www.youtube.com/watch?v=huGd4efgdPA"><img src="./Images/Guess.png" heigth="100" width="100"  alt="Guess single"/></a></center>
+    <br><br><center><a href="https://www.youtube.com/watch?v=huGd4efgdPA&t=.0s" target="_blank"><img src="./Images/Guess.png" heigth="100" width="100"  alt="Guess single"/></a></center>
   <blockquote class="bluetext"><font size="2" face="Courier New"><em>"Guess guess guess guess guess guess"-Charlie xcx.</em></blockquote></font> </h3>
+</section>
+
+<section id="education">
 <hr/>
     <h2 class="whitetext"><font size="7">Education</font></h2>
     <ul>
@@ -164,9 +94,10 @@
      </a></b></li>
     </ul>
 <hr/>
-
+</section>
 
 <center><table border="0">
+    <section id="skills/hobbies">
     <tr>
         <td style="vertical-align: bottom;" rowspan="6" ><img src="Images/Waveves.jpg" height="206" alt="Coconats"/></td>
         <td><h2 class="Bblock">Skills</h2></td>
@@ -189,11 +120,13 @@
             <li>Playing Dress to Impress</li>
            </ul></td>
     </tr>
+    </section>
 </table></center>
 
 <hr/>
 <center><table border="0">
     <tr>
+        <section id="foods">
         <td><h2 class="Bblock">Favourite Food</h2></td>
         <td><h2 class="Bblock"> Least Favourite Food</h2></td>
         <td style="vertical-align: bottom;" rowspan="6" ><img src="Images/Coconats.jpg" height="206" alt="Coconats"/></td>
@@ -211,12 +144,13 @@
             <li>English</li>
             <li>English</li>
         </ol></td>
+    </section>
     </tr>
 
 </table></center>
 
 <hr/>
-
+<section id="mediaienjoy">
     <h2 class="Bblock">Media i Enjoy</h2>
     <center><img src="Images/MediaImg.jpg" width="640" alt="Coconats"/></center>
     <center><table border="0">
@@ -245,15 +179,16 @@
                 <li>Brat</li></td>
         </tr>
     </table></center>
-    <hr/>
+    </section><hr/>
 
+<section id="musicians">
 <center><h2 class="whitetext"><font size="10">Musicians</font></h2></center>
 <table border="0">
     <tr>
         <td class="Bblock">Name:</td>
-        <td class="LBBlock">Lana del Rey</td>
-        <td class="LBBlock">Kali Uchis</td>
-        <td class="LBBlock">Charli xcx</td>
+        <td class="LBBlockA">Lana del Rey</td>
+        <td class="LBBlockA">Kali Uchis</td>
+        <td class="LBBlockA">Charli xcx</td>
     </tr>
     <tr>
         <td class="Bblock">Picture:</td>
@@ -289,14 +224,14 @@
             and started writing songs at 14 years old.</td>
         </font></tr>
 </table>
-
+</section>
 <hr/>
 
 <br/><br/><br/><center><font size="30"><a class="Link" href="destination.html">Click here to see my favourite spots</a></font></center>
 
 <br/><br/><br/><br/><hr/>
 
-
+<section id="forms">
 <center><img src="Images2/BeachGif.gif" alt="Palm tree and Beach ball size" height="150" /></center>
 <center><table border="0">
 <form action="Answers" method="post">
@@ -311,8 +246,8 @@
 </tbody>
 
 <tbody>
-    <td class="WblockT"> <label for="name"><b>Activity:</b></label> <input type="text" id="name" name="activity"> </td>
-    <td class="WblockT"> <label for="place"><b>Place:</b></label>  <input type="text" id="place" name="place"></td>
+    <td class="WblockT"> <label for="name"><b>Activity:</b></label> <input placeholder="Enter your text here" type="text" id="name" name="activity"> </td>
+    <td class="WblockT"> <label for="place"><b>Place:</b></label>  <input placeholder="Enter your text here" type="text" id="place" name="place"></td>
     <td class="WblockT"><label for="type"><b>Type:</b></label>
         <input list="type-options" name="type" id="type">
         <datalist id="type-options">
@@ -324,7 +259,7 @@
         </datalist></td>
 </tbody>
 <tbody>
-    <td class="WblockT" colspan="3"><center><b><label style="vertical-align: top;" for="notes">Notes:</label>  <textarea id="notes" name="notes" rows="10" cols="70">Text goes here.</textarea></b> </center></td>
+    <td class="WblockT" colspan="3"><center><b><label style="vertical-align: top;" for="notes">Notes:</label> <textarea placeholder="Enter your text here" id="notes" name="notes" rows="10" cols="70"></textarea></b> </center></td>
 </tbody>
 <tbody>
     <td class="WblockT"><center><label for="color"><b>Choose a color:</b></label> <input type="color" id="color" name="color" value="#ff0000"></center></td>
@@ -336,7 +271,7 @@
 </tbody>
 </form>
 </table></center>
-</body>
+</body></section>
 <br/><br/><br/><br/><br/><br/><br/><br/>
 
 <center><a href="#"  class="Bblock" style="text-decoration: none;">Go to top</a></center><br /><br /><br />
@@ -346,6 +281,8 @@
     <p><b>Álvaro Reynoso Obregón   -    2024</b></p>
 </div>
 
-
+</th>
+</thead>
+</table>
 </body>
 </html>
