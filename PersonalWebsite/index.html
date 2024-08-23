@@ -1,288 +1,345 @@
 <!DOCTYPE html>
 <html lang="en">
+
+ <!-- The head -->
 <head>
-    <link rel="icon" href="./Images/logo.png" type="image/png">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./Images/logo.png" type="image/png">  <!-- Puts the favicon in the browser, though i dont know why it doesent currently work :/ -->
+    <link rel="stylesheet" href="styles.css">  <!-- Imports the CSS -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My page</title>
-
 </head>
 
+ <!-- The body -->
 <body class="bodyA">
-<table border="0">
-    <thead>
-        <th style="width: 13%;"></th>
-        <th>
+    <table border="0">  <!-- separate the left bar menu from the site -->
+        <thead>
+            <th style="width: 13%;"></th>  <!-- Bar menu -->
+            <th>
+                
+                <!-- section of home -->
+                <section id="home"> 
 
-<section id="home">
-<table border="0">
-    <tr>
-        <td style="vertical-align: bottom;" rowspan="3">
-            <img src="Images/Coconat.png" alt="Descripción de la imagen"  height="150">
-        </td>
-        <td height="150" style="vertical-align: bottom; padding: 0;">
-            <div style="display: flex; flex-direction: column; justify-content: flex-end; height: 100%;">
-                <strong class="LBText" style="font-size: 4em; margin: 0;">Alvaro Reynoso Obregon</strong>
-                <strong class="whitetext" style="text-align: left;" style="margin: 0;">Animation Student</strong>
-                <em class="bluetext" style="text-align: left;" style="margin: 0;">La Calle de las Sirenas, 4108</em>
+                     <!-- Top Info -->
+                    <table border="0">
+                        <tr>
+                            <td style="vertical-align: bottom;" rowspan="3">
+                                <img src="Images/Coconat.png" alt="Ilustracion de coco"  height="150">
+                            </td>
+                            <td height="150" style="vertical-align: bottom; padding: 0;">
+                                <header style="display: flex; flex-direction: column; justify-content: flex-end; height: 100%;">
+                                    <strong class="LBText" style="font-size: 4em; margin: 0;">Alvaro Reynoso Obregon</strong>
+                                    <strong class="whitetext" style="text-align: left;margin: 0;">Animation Student</strong>
+                                    <em class="bluetext" style="text-align: left;margin: 0;">La Calle de las Sirenas, 4108</em>
+                                </header>
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+
+             <!-- Navegator at the top -->
+            <nav class="WblockT"><font face="Courier New"><b>
+                <a class="bluetext" href="index.html">|Home</a> |
+                <a class="bluetext" href="destination.html">My favourite Spots|</a>
+            </b></font>
+            </nav>
+
+             <!-- Side bar menu -->
+            <div class="navbar">
+
+                <img src="Images/Coconat.png" alt="coconat" height="100px"><br/>  <!-- Coconut at the top -->
+
+                <a class="NVBlockT">Sections</a><br/><hr/> <!-- Title of the Bar menu -->
+
+                    <!-- Menu in home -->
+                    <div class="dropdown">
+                    <a class="NVBlockt1" href="#home"><img src="Images/HomeIcon.png " alt="Icono de casa" height="20px"> HOME </a>
+                    <div class="dropdown-content">
+                        <a class="NVBlockt2" href="#background">Background</a>
+                        <a class="NVBlockt2" href="#education">Education</a>
+                        <a class="NVBlockt2" href="#skills/hobbies">Skills/Hobbies</a>
+                        <a class="NVBlockt2" href="#foods">Foods</a>
+                        <a class="NVBlockt2" href="#mediaienjoy">Media I enjoy</a>
+                        <a class="NVBlockt2" href="#musicians">Musicians</a>
+                        <a class="NVBlockt2" href="#forms">Forms</a>
+                    </div>
+                </div>
+                
+                <br/><hr/><br/>  <!-- separation -->
+
+                <!-- menu in destination -->
+                <div class="dropdown">
+                    <a class="NVBlockt1" href="destination.html#homeD"><img src="Images/LocationIcon.png" height="20px" alt="destination icon" > MY FAVOURITE SPOTS </a>
+                    <div class="dropdown-content">
+                        <a class="NVBlockt2" href="destination.html#museodelprado">Museo del Prado</a>
+                        <a class="NVBlockt2" href="destination.html#museodeags">Museo de Aguascalientes</a>
+                        <a class="NVBlockt2" href="destination.html#riodejaneiro">Rio de Janeiro</a>
+                        <a class="NVBlockt2" href="destination.html#sicily">Sicily</a>
+                        <a class="NVBlockt2" href="destination.html#valencia">Valencia</a>
+                    </div>
+                </div><br/><hr/><br/>
             </div>
-        </td>
-    </tr>
-</table>
-
-</section>
-
-<nav class="WblockT"><font face="Courier New"><b>
-    <a class="bluetext" href="index.html">|Home</a> |
-    <a class="bluetext" href="destination.html">My favourite Spots|</a>
-</b></font></nav>
-
-<div class="navbar">
-    <img src="Images/Coconat.png" alt="coconat" height="100px"><br/>
-    <a class="NVBlockT">Sections</a><br/><hr/>
-
-    <div class="dropdown">
-        <a class="NVBlockt1" href="#home"><img src="Images/HomeIcon.png" height="20px"> HOME </a>
-        <div class="dropdown-content">
-            <a class="NVBlockt2" href="#background">Background</a>
-            <a class="NVBlockt2" href="#education">Education</a>
-            <a class="NVBlockt2" href="#skills/hobbies">Skills/Hobbies</a>
-            <a class="NVBlockt2" href="#foods">Foods</a>
-            <a class="NVBlockt2" href="#mediaienjoy">Media I enjoy</a>
-            <a class="NVBlockt2" href="#musicians">Musicians</a>
-            <a class="NVBlockt2" href="#forms">Forms</a>
-        </div>
-    </div><br/><hr/><br/>
-
-    <div class="dropdown">
-        <a class="NVBlockt1" href="#homeD"><img src="Images/LocationIcon.png" height="20px"> MY FAVOURITE SPOTS </a>
-        <div class="dropdown-content">
-            <a class="NVBlockt2" href="destination.html#museodelprado">Museo del Prado</a>
-            <a class="NVBlockt2" href="destination.html#museodeags">Museo de Aguascalientes</a>
-            <a class="NVBlockt2" href="destination.html#riodejaneiro">Rio de Janeiro</a>
-            <a class="NVBlockt2" href="destination.html#sicily">Sicily</a>
-            <a class="NVBlockt2" href="destination.html#valencia">Valencia</a>
-        </div>
-    </div><br/><hr/><br/>
-
-</div>
 
 
-
-    <section id="background">
-<br><center><img src="./Images/Yo.png" heigth="300" width="250" alt="A portrait of me"  /></center>
-    <h2 class="Bblock">Background</h2>
-    <h3 class="WBblock"><font size="2" face="Courier New">I was born from an early age in the year of 2003, October. 
-        Through years of growth, not only in size but curiosity, i developed an 
-        interest for the visual arts and the world of cinematography, which quickly 
-        lead me to an obsession with drawing; quickly turning into my desire for a 
-        career path. Currently i study animation in the hopes of getting to put out 
-        my own stories.</font>
+            <!-- Section of the Bakground -->
+            <section id="background">
+                <br><center><img src="./Images/Yo.png" height="300" width="250" alt="A portrait of me"  /></center>
+                    <h2 class="Bblock">Background</h2>
+                        <h3 class="WBblock"><font size="2" face="Courier New">I was born from an early age in the year of 2003, October. 
+                                                                              Through years of growth, not only in size but curiosity, i developed an 
+                                                                              interest for the visual arts and the world of cinematography, which quickly 
+                                                                              lead me to an obsession with drawing; quickly turning into my desire for a 
+                                                                              career path. Currently i study animation in the hopes of getting to put out 
+                                                                              my own stories.</font>
     
 
-    <br><br><center><a href="https://www.youtube.com/watch?v=huGd4efgdPA&t=.0s" target="_blank"><img src="./Images/Guess.png" heigth="100" width="100"  alt="Guess single"/></a></center>
-  <blockquote class="bluetext"><font size="2" face="Courier New"><em>"Guess guess guess guess guess guess"-Charlie xcx.</em></blockquote></font> </h3>
-</section>
+                <br><br><center><a href="https://www.youtube.com/watch?v=huGd4efgdPA&t=.0s" target="_blank"><img src="./Images/Guess.png" height="100" width="100"  alt="Guess single"/></a></center>
+                <blockquote class="bluetext"><font size="2" face="Courier New"><em>"Guess guess guess guess guess guess"-Charlie xcx.</em></blockquote></font> </h3>
+            </section>
 
-<section id="education">
-<hr/>
-    <h2 class="whitetext"><font size="7">Education</font></h2>
-    <ul>
-     <li class="bluetext"><font size="3" face="Courier New" color="white"><b><a class="whitetext" href="https://www.liceodelvalle.edu.mx/">Liceo del Valle<em>(2010-2022)</em></font><img src="./Images/LiceoDelValle.png" heigth="30" width="25" alt=" Liceo del Valle logo"  /></a></b> </li>
-     <li class="bluetext"><font size="3" face="Courier New" color="white"><b><a class="whitetext" href="https://www.up.edu.mx/en/?profile=preuniversitario2">Universidad Panamericana <em>(Currently)</em></b></font><img src="./Images/UP.png" heigth="30" width="25" alt="Universidad Panamericana Logo"  />
-     </a></b></li>
-    </ul>
-<hr/>
-</section>
-
-<center><table border="0">
-    <section id="skills/hobbies">
-    <tr>
-        <td style="vertical-align: bottom;" rowspan="6" ><img src="Images/Waveves.jpg" height="206" alt="Coconats"/></td>
-        <td><h2 class="Bblock">Skills</h2></td>
-        <td><h2 class="Bblock">Hobbies</h2></td>
-    </tr>
-    <tr>
-        <td class="Wblock"><ol>
-            <li>Use of Adobe programs</li>
-            <li>Use of procreate and procreate dreams</li>
-            <li>Mastery on digital and traditional art</li>
-            <li>Capable to animate in 2D</li>
-            <li>I can drive</li>
-           </ol></td>
-           
-        <td class="Wblock"><ul>
-            <li>Drawing</li>
-            <li>Painting</li>
-            <li>Going to the beach</li>
-            <li>being nosy</li>
-            <li>Playing Dress to Impress</li>
-           </ul></td>
-    </tr>
-    </section>
-</table></center>
-
-<hr/>
-<center><table border="0">
-    <tr>
-        <section id="foods">
-        <td><h2 class="Bblock">Favourite Food</h2></td>
-        <td><h2 class="Bblock"> Least Favourite Food</h2></td>
-        <td style="vertical-align: bottom;" rowspan="6" ><img src="Images/Coconats.jpg" height="206" alt="Coconats"/></td>
-    </tr>
-    <tr>
-        <td class="Wblock"><ol>
-            <li>Mexican</li>
-            <li>Italian</li>
-            <li>Korean</li>
-            <li>Greek</li>
-            <li>Japanese</li>
-           </ol></td>
-        <td class="Wblock"><ol start="19">
-            <li>Arab</li>
-            <li>English</li>
-            <li>English</li>
-        </ol></td>
-    </section>
-    </tr>
-
-</table></center>
-
-<hr/>
-<section id="mediaienjoy">
-    <h2 class="Bblock">Media i Enjoy</h2>
-    <center><img src="Images/MediaImg.jpg" width="640" alt="Coconats"/></center>
-    <center><table border="0">
-        
-        <tr>      
-            <td><h2 class="Bblock">Books</h2></td>
-            <td><h2 class="Bblock">Movies</h2></td>
-            <td><h2 class="Bblock">TV shows</h2></td>
-            </ol>
-        </tr>
-        <tr>
-            <td class="Wblock">
+            <!-- Section of Education -->
+            <section id="education">
+            <hr/>
+                <h2 class="whitetext"><font size="7">Education</font></h2>
                 <ul>
-                 <li>Luca Artbook</li>
-                 <li>Caravaggio biography</li>
-                 <li>Moby Dick</li>
-                 </ul></td>
-            <td class="Wblock"><ul>
-                <li>Happy Feet</li>
-                <li>The phantom of the Opera</li>
-                <li>Ella is Ecnhanted</li>
-                </ul></td>
-            <td class="Wblock"><ul>
-                <li>The Queens Gambit</li>
-                <li>Over the Garden Wall</li>
-                <li>Brat</li></td>
-        </tr>
-    </table></center>
-    </section><hr/>
+                    <li class="bluetext"><font size="3" face="Courier New" color="white"><b><a class="whitetext" href="https://www.liceodelvalle.edu.mx/">Liceo del Valle<em>(2010-2022)</em></font><img src="./Images/LiceoDelValle.png" height="30" width="25" alt=" Liceo del Valle logo"  /></a> </b></li>
+                    <li class="bluetext"><font size="3" face="Courier New" color="white"><b><a class="whitetext" href="https://www.up.edu.mx/en/?profile=preuniversitario2">Universidad Panamericana <em>(Currently)</em></font><img src="./Images/UP.png" height="30" width="25" alt="Universidad Panamericana Logo"  /></a></b></li>
+                    </ul>
+                <hr/>
+            </section>
 
-<section id="musicians">
-<center><h2 class="whitetext"><font size="10">Musicians</font></h2></center>
-<table border="0">
-    <tr>
-        <td class="Bblock">Name:</td>
-        <td class="LBBlock">Lana del Rey</td>
-        <td class="LBBlock">Kali Uchis</td>
-        <td class="LBBlock">Charli xcx</td>
-    </tr>
-    <tr>
-        <td class="Bblock">Picture:</td>
-        <td class="WblockT"><img src="./Images/LanaDelRey.jpg" heigth="300" width="300" alt="Album cover from `Did you know that theres a tunnel under ocean blv` by Lana del Rey"/></td>
-        <td class="WblockT"><img src="./Images/KaliUchis.jpg" heigth="300" width="300" alt="Kali Uchis writing in a computer"/></td>
-        <td class="WblockT"><img src="./Images/CharliXcx.jpg" heigth="300" width="300" alt="Singer and songwriter Charli xcx"/></td>
+            <!-- Section of Skills/Hobbies -->
+            <section id="skills/hobbies"></section>
+                <center><table border="0">
+                    <!-- Table for titles -->
+                    <tr>
+                        <td style="vertical-align: bottom;" rowspan="6" ><img src="Images/Waveves.jpg" height="206" alt="Coconats" alt="Foto de cocos"/></td>
+                        <td><h2 class="Bblock">Skills</h2></td>
+                        <td><h2 class="Bblock">Hobbies</h2></td>
+                    </tr>
+                    <!-- Table for Skills -->
+                    <tr>
+                        <td class="Wblock">
+                            <ol>
+                                <li>Use of Adobe programs</li>
+                                <li>Use of procreate and procreate dreams</li>
+                                <li>Mastery on digital and traditional art</li>
+                                <li>Capable to animate in 2D</li>
+                                <li>I can drive</li>
+                            </ol>
+                        </td>
+           
+                        <!-- Table for Hobbies -->
+                        <td class="Wblock">
+                            <ul>
+                                <li>Drawing</li>
+                                <li>Painting</li>
+                                <li>Going to the beach</li>
+                                <li>being nosy</li>
+                                <li>Playing Dress to Impress</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table></center>
+            </section>
 
-    </tr>
-    <tr>
-        <td class="Bblock">Date of birth:</td>
-        <td class="WblockT">June 21, 1985</td>
-        <td class="WblockT">July 17, 1994</td>
-        <td class="WblockT">August 2, 1992</td>
-    </tr>
-    <tr>
-        <td class="Bblock">Favourite Album:</td>
-        <td class="WblockT">Paradise</td>
-        <td class="WblockT">Isolation</td>
-        <td class="WblockT">Brat</td>
-    </tr>
-    <tr>
-        <td class="Bblock">Description:</td>
-        <td class="WblockT"><font face="Courier New">Elizabeth Woolridge Grant (born June 21, 1985), known professionally as Lana Del Rey, 
-            is an American singer and songwriter. Her music is noted for its cinematic quality and 
-            exploration of tragic romance, glamour, and melancholia, with frequent references to 
-            pop culture and 1950s–1970s Americana.</font>
-        <td class="WblockT"><font face="Courier New">Karly Marina Loaiza (born July 17, 1994), known professionally as Kali Uchis is an 
-            American singer and songwriter. After releasing her debut mixtape Drunken Babble (2012)
-            , she gained recognition for her debut extended play, Por Vida (2015).</font></td>
-        <td class="WblockT"><font face="Courier New">Born in Cambridge as Charlotte Emma Aitchison, Charli XCX is a singer, songwriter, model 
-            and actress. Daughter of a Scottish father and Indian mother, she studied at UCL's Slade 
-            School of Fine Art in London. Charlotte kept her MSN Messenger alias for her stage name 
-            and started writing songs at 14 years old.</td>
-        </font></tr>
-</table>
-</section>
-<hr/>
+            <hr/><!-- separation -->
 
-<br/><br/><br/><center><font size="30"><a class="Link" href="destination.html">Click here to see my favourite spots</a></font></center>
+            <section id="foods"></section>
+                <center><table border="0">
+                    <tr>
+                        <td><h2 class="Bblock">Favourite Food</h2></td>
+                        <td><h2 class="Bblock"> Least Favourite Food</h2></td>
+                        <td style="vertical-align: bottom;" rowspan="6" ><img src="Images/Coconats.jpg" height="206" alt="Coconats"/></td>
+                    </tr>
+                    <tr>
+                        <td class="Wblock">
+                            <ol>
+                                <li>Mexican</li>
+                                <li>Italian</li>
+                                <li>Korean</li>
+                                <li>Greek</li>
+                                <li>Japanese</li>
+                            </ol>
+                        </td>
+                        <td class="Wblock">
+                            <ol start="19">
+                                <li>Arab</li>
+                                <li>English</li>
+                                <li>English</li>
+                            </ol>
+                        </td>
+           
+                    </tr>
+                </table></center>
+            </section>
 
-<br/><br/><br/><br/><hr/>
+            <hr/><!-- separation -->
 
-<section id="forms">
-<center><img src="Images2/BeachGif.gif" alt="Palm tree and Beach ball size" height="150" /></center>
-<center><table border="0">
-<form action="Answers" method="post">
-<thead>
- <td colspan="3" class="Bblock"><font size="30">Forms:</font></td>  
-</thead>
+            <section id="mediaienjoy">
+                <h2 class="Bblock">Media i Enjoy</h2>
+                <center><img src="Images/MediaImg.jpg" width="640" alt="Coconats"/></center>
+                <center><table border="0"> 
+                    <tr>      
+                        <td><h2 class="Bblock">Books</h2></td>
+                        <td><h2 class="Bblock">Movies</h2></td>
+                        <td><h2 class="Bblock">TV shows</h2></td>
+                    </tr>
+                    <tr>
+                        <td class="Wblock">
+                            <ul>
+                                 <li>Luca Artbook</li>
+                                <li>Caravaggio biography</li>
+                                <li>Moby Dick</li>
+                            </ul>
+                        </td>
+                        <td class="Wblock">
+                            <ul>
+                                <li>Happy Feet</li>
+                                <li>The phantom of the Opera</li>
+                                <li>Ella is Ecnhanted</li>
+                            </ul>
+                        </td>
+                        <td class="Wblock">
+                            <ul>
+                                <li>The Queens Gambit</li>
+                                <li>Over the Garden Wall</li>
+                                <li>Brat</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table></center>
+            </section>
+            
+            <hr/> <!-- separation -->
 
-<tbody>
-    <td class="WblockT"> <label for="date"><b>Date:</b></label>  <input type="date" id="date" name="date"></td>
-    <td class="WblockT"><label for="start-time"><b>Select a start time:</b></label> <input type="time" id="start-time" name="start-time"> </td>
-    <td class="WblockT"> <label for="finish-time"><b>Select an end time:</b></label>  <input type="time" id="finish-time" name="finish-time"></td>
-</tbody>
+            <!-- Section of Musicians -->
+            <section id="musicians">
+                <center><h2 class="whitetext"><font size="10">Musicians</font></h2></center>
+                <table border="0">
+                    <tr>
+                        <td class="Bblock">Name:</td>
+                        <td class="LBBlock">Lana del Rey</td>
+                        <td class="LBBlock">Kali Uchis</td>
+                        <td class="LBBlock">Charli xcx</td>
+                    </tr>
+                    <tr>
+                        <td class="Bblock">Picture:</td>
+                        <td class="WblockT"><img src="./Images/LanaDelRey.jpg" height="300" width="300" alt="Album cover from `Did you know that theres a tunnel under ocean blv` by Lana del Rey"/></td>
+                        <td class="WblockT"><img src="./Images/KaliUchis.jpg" height="300" width="300" alt="Kali Uchis writing in a computer"/></td>
+                        <td class="WblockT"><img src="./Images/CharliXcx.jpg" height="300" width="300" alt="Singer and songwriter Charli xcx"/></td>
 
-<tbody>
-    <td class="WblockT"> <label for="name"><b>Activity:</b></label> <input placeholder="Enter your text here" type="text" id="name" name="activity"> </td>
-    <td class="WblockT"> <label for="place"><b>Place:</b></label>  <input placeholder="Enter your text here" type="text" id="place" name="place"></td>
-    <td class="WblockT"><label for="type"><b>Type:</b></label>
-        <input list="type-options" name="type" id="type">
-        <datalist id="type-options">
-            <option value="School">
-            <option value="Personal">
-            <option value="Professional">
-            <option value="Family">
-            <option value="Other">
-        </datalist></td>
-</tbody>
-<tbody>
-    <td class="WblockT" colspan="3"><center><b><label style="vertical-align: top;" for="notes">Notes:</label> <textarea placeholder="Enter your text here" id="notes" name="notes" rows="10" cols="70"></textarea></b> </center></td>
-</tbody>
-<tbody>
-    <td class="WblockT"><center><label for="color"><b>Choose a color:</b></label> <input type="color" id="color" name="color" value="#ff0000"></center></td>
-    <td class="WblockT"><center> <label for="status"><b>Status:</b></label>
-        <input type="checkbox" id="status" name="status">
-        <label for="status">Busy</label></center></td>
-    <td class="SBlock"><input class="bluetext" type="submit" value="Submit"></td>
+                    </tr>
+                    <tr>
+                        <td class="Bblock">Date of birth:</td>
+                        <td class="WblockT">June 21, 1985</td>
+                        <td class="WblockT">July 17, 1994</td>
+                        <td class="WblockT">August 2, 1992</td>
+                    </tr>
+                    <tr>
+                        <td class="Bblock">Favourite Album:</td>
+                        <td class="WblockT">Paradise</td>
+                        <td class="WblockT">Isolation</td>
+                        <td class="WblockT">Brat</td>
+                    </tr>
+                    <tr>
+                        <td class="Bblock">Description:</td>
+                        <td class="WblockT"><font face="Courier New">Elizabeth Woolridge Grant (born June 21, 1985), known professionally as Lana Del Rey, 
+                                                                    is an American singer and songwriter. Her music is noted for its cinematic quality and 
+                                                                    exploration of tragic romance, glamour, and melancholia, with frequent references to 
+                                                                    pop culture and 1950s–1970s Americana.</font>
+                        <td class="WblockT"><font face="Courier New">Karly Marina Loaiza (born July 17, 1994), known professionally as Kali Uchis is an 
+                                                                    American singer and songwriter. After releasing her debut mixtape Drunken Babble (2012)
+                                                                    , she gained recognition for her debut extended play, Por Vida (2015).</font></td>
+                        <td class="WblockT"><font face="Courier New">Born in Cambridge as Charlotte Emma Aitchison, Charli XCX is a singer, songwriter, model 
+                                                                    and actress. Daughter of a Scottish father and Indian mother, she studied at UCL's Slade 
+                                                                    School of Fine Art in London. Charlotte kept her MSN Messenger alias for her stage name 
+                                                                    and started writing songs at 14 years old.</td></font>
+                    </tr>
+                </table>
+            </section>
+            <hr/> <!-- separation -->   
 
-</tbody>
-</form>
-</table></center>
-</body></section>
-<br/><br/><br/><br/><br/><br/><br/><br/>
+            <!-- Pop up to destinations -->
+            <br/><br/><br/><center><font size="30"><a class="Link" href="destination.html">Click here to see my favourite spots</a></font></center>
 
-<center><a href="#"  class="Bblock" style="text-decoration: none;">Go to top</a></center><br /><br /><br />
+            <br/><br/><br/><br/><!-- moving space -->
+            
+            <hr/><!-- separation -->
 
-<div class="footnote">
-    <a href="https://www.instagram.com/alvaro_reynosoo/"><img src="./Images/Instagram.png" heigth="20" width="20" alt="A portrait of me"  /></a>
-    <p><b>Álvaro Reynoso Obregón   -    2024</b></p>
-</div>
+            <section id="forms">
 
-</th>
-</thead>
-</table>
+                <!-- Gif -->
+                <center><img src="Images2/BeachGif.gif" alt="Palm tree and Beach ball" height="150" /></center>
+
+                <!-- The answers start -->
+                <center><table border="0">
+                    <form action="Answers" method="post">
+                        <thead>
+                            <td colspan="3" class="Bblock"><font size="30">Forms:</font></td>  
+                        </thead>
+
+                        <!-- Block 1 of the forms -->
+                        <tbody>
+                            <td class="WblockT"> <label for="date"><b>Date:</b></label>  <input type="date" id="date" name="date"></td>
+                            <td class="WblockT"><label for="start-time"><b>Select a start time:</b></label> <input type="time" id="start-time" name="start-time"> </td>
+                            <td class="WblockT"> <label for="finish-time"><b>Select an end time:</b></label>  <input type="time" id="finish-time" name="finish-time"></td>
+                        </tbody>
+
+                        <!-- Block 2 of the forms -->
+                        <tbody>
+                            <!-- Activity form -->
+                            <td class="WblockT"> <label for="name"><b>Activity:</b></label> <input placeholder="Enter your text here" type="text" id="name" name="activity"> </td>
+                            <!-- Place form -->
+                            <td class="WblockT"> <label for="place"><b>Place:</b></label>  <input placeholder="Enter your text here" type="text" id="place" name="place"></td>
+                            <!-- Type form -->
+                                <td class="WblockT"><label for="type"><b>Type:</b></label>
+                                     <input list="type-options" name="type" id="type">
+                                        <datalist id="type-options">
+                                            <option value="School">
+                                            <option value="Personal">
+                                            <option value="Professional">
+                                            <option value="Family">
+                                            <option value="Other">
+                                        </datalist></td>
+                        </tbody>
+
+                        <!-- Block 3 of the forms -->
+                        <tbody>
+                            <!-- Notes form -->
+                            <td class="WblockT" colspan="3"><center><b><label style="vertical-align: top;" for="notes">Notes:</label> <textarea placeholder="Enter your text here" id="notes" name="notes" rows="10" cols="70"></textarea></b> </center></td>
+                        </tbody>
+                        
+                        <!-- Block 5 of the forms -->
+                        <tbody>
+                            <!-- Color form -->
+                            <td class="WblockT"><center><label for="color"><b>Choose a color:</b></label> <input type="color" id="color" name="color" value="#ff0000"></center></td>
+                            <!-- Status form -->
+                            <td class="WblockT"><center> <label for="status"><b>Status:</b></label>
+                                <input type="checkbox" id="status" name="status">
+                            <!-- Busy form -->
+                                <label for="status">Busy</label></center></td>
+                            <td class="SBlock"><input class="bluetext" type="submit" value="Submit"></td>
+
+                        </tbody>
+                    </form>
+                </table></center>
+            </section>
+
+            <br/><br/><br/><br/><br/><br/><br/><br/> <!-- mega separation -->
+
+            <!-- Button to go to the top -->
+            <center><a href="#"  class="Bblock" style="text-decoration: none;">Go to top</a></center><br /><br /><br />
+
+                <div class="footnote">
+                    <!-- Instagram link -->
+                    <a href="https://www.instagram.com/alvaro_reynosoo/" target="_blank"><img src="./Images/Instagram.png" height="20" width="20" alt="Instagram logo"  /></a>
+                    <!-- legend -->
+                    <p><b>Álvaro Reynoso Obregón   -    2024</b></p>
+                </div>
+
+            </th>
+        </thead>
+    </table>
 </body>
 </html>
