@@ -61,7 +61,7 @@
       left: 0; /* Position it on the left */
       height: 100%; /* Full height */
       width: 200px; /* Set the width of the navbar */
-      background-color: darkblue; /* Background color */
+      background-color: rgba(0, 0, 139, 0.8); /* Background color */
       color: white; /* Text color */
       padding: 20px 0;
       text-align: center;
@@ -147,7 +147,7 @@
       ;
   }
   .Wblock{
-      background-color: white;
+      background-color: hwb(0 100% 0%);
       text-align: left;
       border: solid 10px;
       border-color: white;
