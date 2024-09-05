@@ -24,7 +24,8 @@
 }
 
   .dropdown-content a:hover {
-    background-color: #f1f1f1;
+    color: #ffffff;
+    background-color: rgb(16, 37, 83);
 }
 
   .dropdown:hover .dropdown-content {
@@ -267,4 +268,19 @@ ol.no-numbers {
     padding-left: 0;
 }	
 
+/* ------------------------Hovers------------------------ */
+.huver a:hover{
+    color: rgb(220, 225, 237);
+    background-color: #262657;
+}
+
+.Link a:hover{
+    background-color: rgba(114, 209, 206, 0.485);
+    text-align: center;
+    border: solid 50px;
+    border-color: rgb(19, 77, 75);
+    color: rgb(255, 252, 240);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: solid 5px;
+  }
 /* THE END :) */
